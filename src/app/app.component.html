@@ -1,0 +1,14 @@
+<!-- app.component.html -->
+<div class="container">
+  <div class="row vh-100">
+    <div class="col-md-12 d-flex justify-content-center align-items-center">
+      <app-loan-input-form (calculate)="onCalculate($event)"></app-loan-input-form>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center align-items-center" *ngIf="amortizationSchedule">
+      <app-amortization-schedule [amortizationSchedule]="amortizationSchedule"></app-amortization-schedule>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center align-items-center" *ngIf="amortizationSchedule">
+      <app-amortization-chart [amortizationData]="amortizationSchedule"></app-amortization-chart>
+    </div>
+  </div>
+</div>

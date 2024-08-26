@@ -1,0 +1,44 @@
+/* amortization-schedule.component.css */
+.schedule-wrapper {
+    padding: 50px 0;
+  }
+  
+  .schedule-table {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .schedule-table thead {
+    background-color: #f23292;
+    color: white;
+  }
+  
+  .schedule-table tbody tr:nth-child(even) {
+    background-color: #f0f4f5;
+  }
+  
+  .schedule-table tbody tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .schedule-table td {
+    color: #333;
+  }
+  
+  .schedule-table th {
+    color: white;
+    font-weight: 500;
+  }
+  
+  .schedule-table tbody td {
+    font-weight: 400;
+  }
+  

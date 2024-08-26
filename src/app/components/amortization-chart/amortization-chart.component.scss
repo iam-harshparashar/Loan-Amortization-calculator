@@ -1,0 +1,16 @@
+/* loan-chart.component.css */
+.chart-wrapper {
+    padding: 50px 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chart-wrapper canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
